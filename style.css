@@ -1,0 +1,51 @@
+body {
+    background-color: #8edea7;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 100px auto 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500px;
+    margin-block: 30px;
+}
+
+.frutas-lista {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlight {
+    color: rgb(0, 165, 16); /* ou qualquer outra cor desejada */
+}
+
+.frutas {
+    /* display: flex; */
+    margin: auto;
+    font-size: 20px;
+    background-color: #5bbc7a;
+    width: 400px;
+    gap: 16px;
+    color: #000000;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    cursor: pointer;
+}
